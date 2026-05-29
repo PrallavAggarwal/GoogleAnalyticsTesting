@@ -34,7 +34,9 @@ function App() {
 
       <div style={{ display: "grid", gap: "15px", maxWidth: "600px" }}>
         {/* Basic Button Click */}
-        <button onClick={() => trackEvent("Click", "Basic Button", 1)}>
+        <button
+          onClick={() => trackEvent("Basic_Button_Clicked", "Basic Button", 1)}
+        >
           Basic Button Click
         </button>
 
